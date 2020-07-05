@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Hola mundo con Vue.js</title>
+</head>
+<body>
+    <div class="app container mt-5">
+        <div :class="['p-3', 'text-white', fondo]">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, facere est, nostrum 
+            fugiat voluptatibus iusto perspiciatis provident reiciendis laboriosam obcaecati dicta ducimus 
+            minus eaque eius rem accusamus hic asperiores sit?</p>
+        </div>
+        <input type="text" class="form-control my-3" v-model="fondo">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="v-bind.js"></script>
+</body>
+</html>
